@@ -119,7 +119,7 @@
         if (!container) return;
         
         if (cart.length === 0) {
-            container.innerHTML = `<div class="empty-message">🛒 Корзина пуста. <a href="/Итоговый проект/index.html" style="color:#ac70e7;">Вернуться к битам</a></div>`;
+            container.innerHTML = `<div class="empty-message">🛒 Корзина пуста. <a href="index.html" style="color:#ac70e7;">Вернуться к битам</a></div>`;
             if(totalDiv) totalDiv.innerHTML = "";
             if(checkoutBtn) checkoutBtn.style.display = "none";
             return;
@@ -176,7 +176,7 @@
         if (!ordersContainer) return;
         
         if (!orders || orders.length === 0) {
-            ordersContainer.innerHTML = `<div class="empty-message">📦 У вас пока нет заказов. <a href="/Итоговый проект/index.html" style="color:#c896ff;">🔥 Купить биты прямо сейчас</a><br><br>✨ Добавьте биты в корзину и оформите заказ — он появится здесь.</div>`;
+            ordersContainer.innerHTML = `<div class="empty-message">📦 У вас пока нет заказов. <a href="index.html" style="color:#c896ff;">🔥 Купить биты прямо сейчас</a><br><br>✨ Добавьте биты в корзину и оформите заказ — он появится здесь.</div>`;
             return;
         }
         
