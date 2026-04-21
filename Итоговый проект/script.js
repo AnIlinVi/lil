@@ -2,15 +2,15 @@
     // 1. БАЗА ПРОДУКТОВ (биты)
     // --------------------------------------------------------------
     const PRODUCTS = [
-        { id: 1, name: "Dusk Till Dawn", price: 1990, theme: "theme1", img: "/Итоговый проект/img/beats/1.jpg" },
-        { id: 2, name: "Neon Shadows", price: 1990, theme: "theme1", img: "/Итоговый проект/img/beats/2.jpg" },
-        { id: 3, name: "Lost Souls", price: 1990, theme: "theme1", img: "/Итоговый проект/img/beats/3.jpg" },
-        { id: 4, name: "Midnight Drift", price: 1990, theme: "theme2", img: "/Итоговый проект/img/beats/4.jpg" },
-        { id: 5, name: "Echoes", price: 1990, theme: "theme2", img: "/Итоговый проект/img/beats/5.jpg" },
-        { id: 6, name: "Phantom", price: 1990, theme: "theme2", img: "/Итоговый проект/img/beats/6.jpg" },
-        { id: 7, name: "Wicked Dreams", price: 1990, theme: "theme3", img: "/Итоговый проект/img/beats/7.jpg" },
-        { id: 8, name: "Dark Matter", price: 1990, theme: "theme3", img: "/Итоговый проект/img/beats/8.jpg" },
-        { id: 9, name: "Requiem", price: 1990, theme: "theme3", img: "/Итоговый проект/img/beats/9.jpg" }
+        { id: 1, name: "Dusk Till Dawn", price: 1990, theme: "theme1", img: "Итоговый проект/img/beats/1.jpg" },
+        { id: 2, name: "Neon Shadows", price: 1990, theme: "theme1", img: "Итоговый проект/img/beats/2.jpg" },
+        { id: 3, name: "Lost Souls", price: 1990, theme: "theme1", img: "Итоговый проект/img/beats/3.jpg" },
+        { id: 4, name: "Midnight Drift", price: 1990, theme: "theme2", img: "Итоговый проект/img/beats/4.jpg" },
+        { id: 5, name: "Echoes", price: 1990, theme: "theme2", img: "Итоговый проект/img/beats/5.jpg" },
+        { id: 6, name: "Phantom", price: 1990, theme: "theme2", img: "Итоговый проект/img/beats/6.jpg" },
+        { id: 7, name: "Wicked Dreams", price: 1990, theme: "theme3", img: "Итоговый проект/img/beats/7.jpg" },
+        { id: 8, name: "Dark Matter", price: 1990, theme: "theme3", img: "Итоговый проект/img/beats/8.jpg" },
+        { id: 9, name: "Requiem", price: 1990, theme: "theme3", img: "Итоговый проект/img/beats/9.jpg" }
     ];
 
     // Глобальные переменные
