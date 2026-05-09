@@ -1,0 +1,133 @@
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and (max-width: 1200px) {
+    .box1 {
+        padding-left: 5rem;
+        display: grid;
+        row-gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .teaminfo {
+        margin-bottom: 10rem;
+    }
+
+    .logoAbout {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    video {
+        margin: 0 auto;
+        width: 40rem;
+        margin-bottom: 1rem;
+    }
+
+    .ppp {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .kkk {
+        display: none;
+    }
+
+    .litrueism {
+        margin: 0 auto;
+    }
+
+    #aTov,
+    #aClip,
+    #aCont {
+        display: none;
+    }
+
+    .butos {
+        padding-right: 2rem;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (max-width: 992px) {
+    .box1 {
+        padding-left: 3.5rem;
+
+    }
+
+    .butos {
+        padding-right: 0;
+    }
+
+    audio {
+        width: 11rem;
+    }
+
+    #pic1 {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .add-to-cart-btn {
+        margin-left: 0.5rem;
+    }
+
+    #aOrder {
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 768px) {
+    .navigation {
+        height: 6rem;
+    }
+
+    .litrueism {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .butos {
+        margin-right: 2rem;
+        display: grid;
+        row-gap: 0.5rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .imgTitle {
+        padding-top: 1rem;
+    }
+
+    video {
+        width: 30rem;
+    }
+
+    audio {
+        width: 8rem;
+    }
+
+    #pic1 {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .box1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #carting {
+        display: none;
+    }
+    
+    .nav1 {
+        height: 4rem;
+    }
+
+    #cartImgTitle {
+       padding-top: 0.5rem;
+    }
+}
