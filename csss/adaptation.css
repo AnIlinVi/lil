@@ -1,133 +1,223 @@
-/* Extra large devices (large desktops, 1200px and up)*/
-@media screen and (max-width: 1200px) {
-    .box1 {
-        padding-left: 5rem;
-        display: grid;
-        row-gap: 2rem;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .teaminfo {
-        margin-bottom: 10rem;
-    }
-
-    .logoAbout {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    video {
-        margin: 0 auto;
-        width: 40rem;
-        margin-bottom: 1rem;
-    }
-
-    .ppp {
-        margin: 0 auto;
-        width: 90%;
-    }
-
-    .kkk {
-        display: none;
-    }
-
-    .litrueism {
-        margin: 0 auto;
-    }
-
-    #aTov,
-    #aClip,
-    #aCont {
-        display: none;
-    }
-
-    .butos {
-        padding-right: 2rem;
-    }
-
-}
-
-/* Large devices (desktops, 992px and up)*/
+/* ========== АДАПТАЦИЯ ДЛЯ ПЛАНШЕТОВ (до 992px) ========== */
 @media screen and (max-width: 992px) {
-    .box1 {
-        padding-left: 3.5rem;
-
+    .navigation, .aboutUs, .videoBiography, .navItems, .items, .back, .team, .contact, .container {
+        width: 92%;
     }
-
-    .butos {
-        padding-right: 0;
+    
+    .logoAbout {
+        flex-direction: column;
+        text-align: center;
     }
-
-    audio {
-        width: 11rem;
+    
+    .ppp {
+        width: 100%;
     }
-
+    
+    .kkk {
+        width: 180px;
+    }
+    
+    video {
+        width: 100%;
+        max-width: 450px;
+    }
+    
+    .box, .theme-group {
+        gap: 1.2rem;
+    }
+    
+    .beat {
+        width: 200px;
+    }
+    
     #pic1 {
-        height: 10rem;
-        width: 10rem;
+        width: 120px;
+        height: 120px;
     }
-
-    .add-to-cart-btn {
-        margin-left: 0.5rem;
+    
+    .butos {
+        margin-right: 0;
+        justify-content: center;
     }
-
-    #aOrder {
-        display: none;
+    
+    audio {
+        width: 100%;
     }
 }
 
-/* Medium devices (tablets, 768px and up)*/
+/* ========== ДЛЯ ПЛАНШЕТОВ ДО 768px ========== */
 @media screen and (max-width: 768px) {
     .navigation {
-        height: 6rem;
+        min-height: auto;
+        padding: 0.8rem;
     }
-
-    .litrueism {
-        font-size: 20px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    .butos {
-        margin-right: 2rem;
-        display: grid;
-        row-gap: 0.5rem;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
+    
     .imgTitle {
-        padding-top: 1rem;
+        flex-direction: column;
+        text-align: center;
     }
-
-    video {
-        width: 30rem;
+    
+    .litrueism {
+        font-size: 1.5rem;
     }
-
-    audio {
-        width: 8rem;
+    
+    h1 {
+        font-size: 1.4rem;
     }
-
-    #pic1 {
-        height: 8rem;
-        width: 8rem;
+    
+    .butos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
     }
-
+    
     .box1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    #carting {
-        display: none;
+        gap: 1rem;
     }
     
-    .nav1 {
-        height: 4rem;
+    .teamInfo {
+        width: 100%;
     }
+    
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    video {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .beat {
+        width: 180px;
+    }
+    
+    #pic1 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    form {
+        width: 95%;
+        padding: 1.5rem;
+    }
+}
 
-    #cartImgTitle {
-       padding-top: 0.5rem;
+/* ========== ДЛЯ ТЕЛЕФОНОВ ДО 600px ========== */
+@media screen and (max-width: 600px) {
+    .box1 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+        padding: 1rem;
     }
+    
+    .teamInfo {
+        padding: 0.8rem;
+    }
+    
+    .teamInfo img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .beat {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    
+    .box, .theme-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cart-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.8rem;
+    }
+    
+    .cart-item-quantity, .cart-item-price, .cart-item-remove {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .orders-header-actions {
+        flex-direction: column;
+    }
+}
+
+/* ========== ДЛЯ МАЛЕНЬКИХ ТЕЛЕФОНОВ ДО 480px ========== */
+@media screen and (max-width: 480px) {
+    .navigation, .aboutUs, .videoBiography, .navItems, .items, .back, .team, .contact, .container {
+        width: 95%;
+        margin: 1rem auto;
+    }
+    
+    .box1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .butNav {
+        gap: 0.5rem;
+    }
+    
+    .filter-btn {
+        padding: 0.4rem 1rem;
+        font-size: 0.85rem;
+    }
+    
+    .theme-title {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .logoAbout {
+        padding: 1rem;
+    }
+    
+    .ppp {
+        font-size: 0.85rem;
+        padding: 1rem;
+    }
+    
+    .cart-container {
+        padding: 1rem;
+    }
+    
+    .cart-total {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .formInp, .btn {
+        padding: 0.7rem;
+    }
+    
+    .up-button {
+        width: 40px;
+        height: 40px;
+        right: 12px;
+        bottom: 12px;
+    }
+    
+    .up-button p {
+        font-size: 1rem;
+    }
+}
+
+/* ========== АДАПТАЦИЯ ДЛЯ ТЕМ (column-layout добавляется скриптом) ========== */
+.theme-group.column-layout {
+    flex-direction: column !important;
+    align-items: center;
+}
+
+.theme-group.column-layout .beat {
+    width: 90%;
+    max-width: 300px;
 }
